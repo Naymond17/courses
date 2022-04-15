@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="css_course.css">
+</head>
+<body>
+    <div id="top" class="panel">
+        <p>CSS</p>
+    </div>
+<div class="courses_body">
+    <div class="introduction">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>CSS-документ</strong> — это обычный текстовый документ с расширением <strong>.css</strong>. Его можно создать
+        как в Блокноте, так и в специализированном редакторе (Notepad++, Visual Studio Code и т.п.).<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>CSS — </strong> язык таблиц стилей, который позволяет прикреплять стиль (например, шрифты и цвет) к структурированным документам (например, документам HTML и приложениям XML).</p>
+    </div>
+
+    <div class="menu">
+      <h3>Содержание</h3>
+      <a href="#p">1) подключение CSS </a><br>
+      <a href="#h">2) обращение к селектору по классу </a><br>
+      <a href="#br">3) обращение к селектору по ID </a><br>
+      <a href="#a">4) оператор *</a><br>
+      <a href="#img">5) медиа-запросы </a><br>
+      <!-- <a href="#div">6) основные правила </a> -->
+    </div>
+
+    <div class="lessons_name text">
+      <p id="p"> подключение CSS </p>
+    </div>
+    <div class="lesson text">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Чтобы подключить CSS к HTML-документу нужно воспользоваться самозакрывающимся тегом link, в значении rel в кавычках указываем тип stylesheet, в href - название css-файла.</p>
+        <img src="css_podkl.PNG" width="800px">
+    </div>
+
+    <div class="lessons_name text">
+      <p id="h"> обращение к селектору по классу </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Чтобы обратиться к селектору по классу нужно прописать точку, после чего написать название класса и открыть фигурные скобки, в которых мы и будем записывать правила разделяя их точкой с запятой.
+      </p>
+        <img src="css2.png">
+    </div>
+
+    <div class="lessons_name text">
+      <p id="br"> обращение к селектору по ID </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Чтобы обратиться к селектору по ID нужно прописать знак #, после чего написать название класса и открыть фигурные скобки, в которых мы и будем записывать правила разделяя их точкой с запятой.</p>
+      
+        <img src="br1.png">
+    </div>
+
+    <div class="lessons_name text">
+      <p id="a"> оператор * </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Это распространенный метод, называемый сбросом CSS. В разных браузерах используются разные поля по умолчанию, из-за чего сайты выглядят по-разному. * означает "все элементы" (универсальный селектор), поэтому мы устанавливаем для всех элементов имеют нулевые поля и нулевые отступы, благодаря чему они выглядят одинаково во всех браузерах.
+      </p>
+
+        <img src="a1.png">
+    </div>
+
+    <div class="lessons_name text">
+      <p id="img"> медиа-запросы </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В общем случае медиа-запрос состоит из ключевого слова, описывающего тип устройства (необязательный параметр) и выражения, проверяющего характеристики данного устройства. Из всех характеристик чаще всего проверяется ширина устройства width. Медиа-запрос является логическим выражением, которое возвращает истину или ложь.
+      </p>
+        <img src="right.PNG">
+    </div>
+
+  </div>
+  <div class="basement">
+    <a href="index.html"> Главная </a>
+    <a href="html_course.html"> HTML </a>
+    <a id="up" href="#top"> Наверх </a>
+  </div>
+</body>
+</html>

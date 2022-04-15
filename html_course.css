@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:ital@1&display=swap');
+
+@media (max-width: 1550px){
+  .courses_body{
+    width: auto;
+  }
+  .panel {
+    margin-left: auto;
+    margin-right:auto;
+  }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.courses_body{
+  width: 950px;
+  display: flex;
+  margin-left: auto;
+  margin-right:auto;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+}
+
+.panel {
+    width: auto;
+    height: 135px;
+    background-color: #f16524;
+  }
+
+
+.panel p{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+body{
+  font-family:'Mulish';
+}
+
+.introduction{
+  width: inherit;
+  background-color: #FFE7DC;
+  border-radius: 17px;
+  margin: 50px auto;
+  padding: 20px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.menu{
+  border: 2px solid #f16524;
+  border-radius: 17px;
+  font-size: 30px;
+  width: inherit;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu h3{
+  text-align: center;
+  background-color:#FFE7DC;
+  border-radius: 17px 17px 0 0;
+  padding: 20px;
+}
+
+.menu a{
+  color: black;
+  padding-left: 70px;
+line-height: 60px;
+}
+
+.menu a:hover{
+  font-weight: bold;
+}
+
+.text{
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #f16524;
+}
+
+.text img{
+  margin-top: 25px;
+}
+
+.lessons_name{
+  margin-top: 50px;
+  background-color: #f16524;
+  width: inherit;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.lesson{
+  width: inherit;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.lesson img{
+  max-width: 900px;
+}
+
+.lesson a{
+  text-decoration: underline;
+  color: black;
+}
+
+.lesson a:hover{
+    font-weight: bold;
+}
+
+.up{
+  position:fixed;
+  bottom:50px;
+  right:80px;
+  font-size: 25px;
+  color: grey;
+}
+
+.up:hover{
+  text-decoration: underline;
+}
+
+.basement{
+  background-color: #FFE7DC;
+  margin-top: 50px;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+}
+
+.basement a{
+  margin: 30px;
+  color: #f16524;
+  font-size: 25px;
+}
+
+.basement a:hover{
+  font-weight: bold;
+}
+
+#up{
+  text-decoration: underline;
+}

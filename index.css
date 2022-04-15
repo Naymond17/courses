@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:ital@1&display=swap');
+
+@media (max-width: 1200px){
+
+  #first{
+    order:-1;
+  }
+
+  .courses_body{
+    flex-direction: column;
+  }
+
+  *{
+    max-width: 250px;
+    font-size: 2px;
+  }
+
+  .click_to_button{
+    margin-top: 50px;
+  }
+
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f0db4f;
+}
+
+.courses_body{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.click_to_button{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: center;
+}
+
+.click_to_button p{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.click_to_button img{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.click_to_button a{
+  width: inherit;
+}
+
+a img{
+  width: 300px;
+}
+.hello {
+  width: 900px;
+  background-color: rgb(245, 245, 190);
+  margin: auto;
+  border-radius: 17px;
+  border: 6px solid #323330;
+  padding: 20px;
+}
+
+.hello h4 {
+  font-size: 40px;
+  text-align: center;
+  margin:  20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hello p {
+  margin: 10px;
+  font-size: 30px;
+  line-height: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.panel {
+  width: auto;
+  height: 135px;
+  background-color: #323330;
+}
+
+.panel p{
+  color: white;
+  font-size: 70px;
+  font-family:'Mulish';
+  margin-left: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.click_to_button img {
+  opacity:1;
+  transition:0.3s;
+}
+
+.click_to_button img:hover {
+  opacity:0.5;
+}

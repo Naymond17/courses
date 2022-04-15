@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="html_course.css">
+</head>
+<body>
+    <div id="top" class="panel">
+        <p>HTML</p>
+    </div>
+<div class="courses_body">
+    <div class="introduction">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>HTML-документ</strong> — это обычный текстовый документ с расширением <strong>.html</strong>. Его можно создать
+        как в Блокноте, так и в специализированном редакторе (Notepad++, Visual Studio Code и т.п.).<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>HTML-документ</strong> состоит из дерева HTML-элементов и текста. Каждый элемент обозначается в исходном документе
+        открывающим и закрывающим тегом (за редким исключением).</p>
+    </div>
+
+    <div class="menu">
+      <h3>Содержание</h3>
+      <a href="#p">1) < p > </a><br>
+      <a href="#h">2) < h1 > </a><br>
+      <a href="#br">3) < br > </a><br>
+      <a href="#a">4) < a > </a><br>
+      <a href="#img">5) < img > </a><br>
+      <a href="#div">6) < div > </a>
+    </div>
+
+    <div class="lessons_name text">
+      <p id="p"> < p > </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Одним из основных тегов является параграф. Он отделяет участки текста друг от друга,
+        что позволяет пользователям комфортнее читать информацию на странице.</p><br>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В HTML параграфы обозначаются специальной конструкцией < p > < / p > внутри которой вставляется
+        нужный текст. Такие теги называются парными, так как у них
+        есть открывающая и закрывающая часть. На количество параграфов нет ограничений.</p>
+        <img src="p.png">
+    </div>
+
+    <div class="lessons_name text">
+      <p id="h"> < h1 > </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML предлагает шесть заголовков разного уровня.
+        Так, тег < h 1 > представляет собой наиболее важный заголовок первого уровня, а тег
+        < h 6 > является наименее значительным. По умолчанию, заголовок первого уровня отображается
+        самым крупным шрифтом жирного начертания, заголовки последующего уровня по размеру меньше.
+      </p>
+        <img src="h.png">
+    </div>
+
+    <div class="lessons_name text">
+      <p id="br"> < br > </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Этот тег указывает место переноса строки.
+        Он является одиночным.</p>
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Стоит отметить, что тег < br > лишь визуально разрывает
+        текст, но не делит его на абзацы. Можно сказать, что он играет роль символа переноса строки.
+      </p>
+        <img src="br.png">
+    </div>
+
+    <div class="lessons_name text">
+      <p id="a"> < a > </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Этот тег предназначен для создания сылок, причем не только на
+        внешний источник, но и на абзац внутри текущей страницы, например. Внутри тега нужно указать адрес
+        источника или документа, на который следует ссылаться. Это делается с помощью атрибута href.
+      </p>
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Адрес может быть абсолютным или относительным. Абсолютные адреса содержат в себе полный адрес
+        объекта в сети Интернет. Относительные же содержат адрес относительно расположения корня текущего
+        сайта, поэтому могут работать не везде.
+      </p>
+        <img src="a.png">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Обратите внимание на то, что ссылки разместились в одну строку. Все потому что тег < a > является
+        строчным и занимает минимально возможное место, в отличие от блочного тега < p >, который
+        располагается во всю ширину страницы.
+      </p>
+    </div>
+
+    <div class="lessons_name text">
+      <p id="img"> < img > </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Этот тег нужен для отображения изображений в форматах GIF, JPEG или PNG.
+      Адрес файла с картинкой задаётся через атрибут src. Картинку можно сделать ссылкой, если вставить тег < img > в
+      тег < a >.
+      </p>
+        <img src="img.png">
+      <p>Это блочный элемент.</p>
+    </div>
+
+    <div class="lessons_name text">
+      <p id="div"> < div > </p>
+    </div>
+    <div class="lesson text">
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Этот тег предназначен для группировки элементов с целью
+        изменения их вида. Такие теги называют контейнерами. </p>
+      <p> Тег < div > - блочный элемент. Без стилевых изменений он бесполезен, однако с ним можно
+        ставить строчные элементы друг под другом (лучше так не делать). Со стилевым управлением Вы можете
+        ознакомиться на <a href="css_course.html">нашем курсе по CSS.</a> </p>
+        <img src="div.png">
+    </div>
+  </div>
+  <div class="basement">
+    <a href="index.html"> Главная </a>
+    <a href="css_course.html"> CSS </a>
+    <a id="up" href="#top"> Наверх </a>
+  </div>
+</body>
+</html>
